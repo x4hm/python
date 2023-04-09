@@ -5,7 +5,7 @@ from keras.models import Sequential
 from keras.layers import Dense
 import matplotlib.pyplot as plt
 
-df = pd.read_csv(r'C:\Users\saadj\Downloads\housepricedata.csv')
+df = pd.read_csv(r'Your_directory\housepricedata.csv') #https://drive.google.com/file/d/1h6LPHNs4F_FnxwfdE_fCIsGeEh30tDBf/view
 dataset = df.values
 X = dataset[:, 0:10]
 Y = dataset[:, 10:11]
